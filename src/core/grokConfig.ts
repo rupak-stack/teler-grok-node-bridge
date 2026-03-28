@@ -14,13 +14,13 @@ export const sessionUpdateConfig = {
             "input": {
                 "format": {
                     "type": "audio/pcm",
-                    "rate": 8000
+                    "rate": config.XAISampleRate
                 }
             },
             "output": {
                 "format": {
                     "type": "audio/pcm",
-                    "rate": 8000
+                    "rate": config.XAISampleRate
                 }
             }
         }
